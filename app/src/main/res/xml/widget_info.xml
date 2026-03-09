@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Widget provider info — tells the launcher how to display and configure
+    the widget in the widget picker and on the home screen.
+-->
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    <!-- Minimum size: 2 × 2 cells (each cell ≈ 74dp on most launchers) -->
+    android:minWidth="148dp"
+    android:minHeight="148dp"
+
+    <!-- Preferred size: 2 × 2 cells -->
+    android:targetCellWidth="2"
+    android:targetCellHeight="2"
+
+    <!-- Update interval — we handle updates ourselves via the service,
+         so set this to the maximum allowed (30 min) to save battery. -->
+    android:updatePeriodMillis="1800000"
+
+    <!-- Preview shown in the widget picker -->
+    android:previewImage="@mipmap/ic_launcher"
+    android:previewLayout="@layout/widget_layout"
+
+    <!-- Round widget shape -->
+    android:widgetCategory="home_screen"
+
+    <!-- Initial layout shown before first update -->
+    android:initialLayout="@layout/widget_layout"
+
+    <!-- Reconfiguration: none needed (no config activity) -->
+    android:resizeMode="none"
+
+    android:description="@string/widget_description" />

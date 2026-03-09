@@ -1,0 +1,2 @@
+-keep class com.countdownwidget.** { *; }
+-keepclassmembers class com.countdownwidget.** { *; }

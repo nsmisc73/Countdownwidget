@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Countdown Timer Widget</string>
+    <string name="widget_name">Countdown Timer</string>
+    <string name="widget_description">A round countdown timer with preset durations</string>
+    <string name="widget_content_description">Countdown timer widget — tap to start</string>
+</resources>
